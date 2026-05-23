@@ -116,7 +116,7 @@ function Show-BbError {
     Write-Host "------------------`n"
 }
 
-function bb-config {
+function Set-BbConfig {
     param(
         [string]$Provider = "openai",
         [string]$ApiKey,
@@ -142,7 +142,7 @@ function bb-config {
     Write-Host "Config saved successfully." -ForegroundColor Green
 }
 
-function bb-use {
+function Set-BbContext {
     [CmdletBinding()]
     param(
         [Parameter(Mandatory = $true, Position = 0)]
@@ -209,7 +209,7 @@ function Show-BbActionBar {
 
         switch ($Key) {
             "e" {
-                Execute-BbCommand -Command $AiResponse.Command
+                Invoke-BbCommand -Command $AiResponse.Command
             }
             "c" {
                 Set-Clipboard -Value $AiResponse.Command
@@ -228,7 +228,7 @@ function Show-BbActionBar {
     }
 }
 
-function Execute-BbCommand {
+function Invoke-BbCommand {
     param($Command)
 
     try {
@@ -240,4 +240,7 @@ function Execute-BbCommand {
     }
 }
 
-Export-ModuleMember -Function bb, bb-config, bb-use, Execute-BbCommand -Alias bb
+Set-Alias -Name bb-config -Value Set-BbConfig
+Set-Alias -Name bb-use -Value Set-BbContext
+
+Export-ModuleMember -Function bb, Set-BbConfig, Set-BbContext, Invoke-BbCommand -Alias bb, bb-config, bb-use

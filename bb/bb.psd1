@@ -24,7 +24,7 @@
     NestedModules = @('bin\Bb.Core.dll')
 
     # Functions to export
-    FunctionsToExport = @('bb', 'bb-config', 'bb-use', 'Execute-BbCommand')
+    FunctionsToExport = @('bb', 'Set-BbConfig', 'Set-BbContext', 'Invoke-BbCommand')
 
     # Cmdlets to export (from the binary)
     CmdletsToExport = @('Invoke-BbAiQuery')
@@ -33,7 +33,7 @@
     VariablesToExport = @()
 
     # Aliases to export
-    AliasesToExport = @()
+    AliasesToExport = @('bb-config', 'bb-use')
 
     # Compatible PSEditions
     CompatiblePSEditions = @('Desktop', 'Core')
