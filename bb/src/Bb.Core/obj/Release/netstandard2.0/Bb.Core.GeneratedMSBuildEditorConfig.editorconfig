@@ -1,0 +1,8 @@
+is_global = true
+build_property.RootNamespace = Bb.Core
+build_property.ProjectDir = D:\agents\cli\gemini_cli\sessions\001\bb\src\Bb.Core\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 

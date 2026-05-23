@@ -1,0 +1,13 @@
+D:\agents\cli\gemini_cli\sessions\001\bb\bin\Bb.Core.dll
+D:\agents\cli\gemini_cli\sessions\001\bb\bin\Bb.Core.deps.json
+D:\agents\cli\gemini_cli\sessions\001\bb\bin\Bb.Core.pdb
+D:\agents\cli\gemini_cli\sessions\001\bb\bin\Microsoft.Bcl.AsyncInterfaces.dll
+D:\agents\cli\gemini_cli\sessions\001\bb\bin\System.Management.Automation.dll
+D:\agents\cli\gemini_cli\sessions\001\bb\bin\System.Buffers.dll
+D:\agents\cli\gemini_cli\sessions\001\bb\bin\System.Memory.dll
+D:\agents\cli\gemini_cli\sessions\001\bb\bin\System.Numerics.Vectors.dll
+D:\agents\cli\gemini_cli\sessions\001\bb\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\agents\cli\gemini_cli\sessions\001\bb\bin\System.Security.Cryptography.ProtectedData.dll
+D:\agents\cli\gemini_cli\sessions\001\bb\bin\System.Text.Encodings.Web.dll
+D:\agents\cli\gemini_cli\sessions\001\bb\bin\System.Text.Json.dll
+D:\agents\cli\gemini_cli\sessions\001\bb\bin\System.Threading.Tasks.Extensions.dll

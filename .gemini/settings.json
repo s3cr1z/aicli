@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "local-mcp": {
+      "url": "http://localhost:39300/model_context_protocol/2025-03-26/mcp",
+      "type": "http"
+    }
+  }
+}
